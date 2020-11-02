@@ -16,4 +16,7 @@ RUN npm run build
 
 #fase 2
 FROM nginx
+#puerto que se usa para exponer en un servicio AWS elasticbeanstock de amazon
+EXPOSE 80
+
 COPY --from=builder /app/build /usr/share/nginx/html
