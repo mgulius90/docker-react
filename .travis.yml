@@ -18,4 +18,6 @@ deploy:
     bucket_path: "docker-react" #la primera vez se llama igual que la app
     on:
         branch: main
-    
+    access_key_id: $access_key_id
+    secret_access_key:
+        secure: "$secret_access_key"
