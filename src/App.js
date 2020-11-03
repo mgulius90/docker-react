@@ -10,7 +10,7 @@ function App() {
         <h1 className="App-title">Welcome</h1>
       </header>
         <p className="App-Intro">
-          Hola Mundo 
+          Cambie en el branch feature
         </p>
     </div>
   );
